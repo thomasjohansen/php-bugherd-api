@@ -207,7 +207,7 @@ class Client
      * @param  boolean $check
      * @return Client
      */
-    public function setCheckSslCertificate($check = tue)
+    public function setCheckSslCertificate($check = true)
     {
         $this->checkSslCertificate = $check;
 
